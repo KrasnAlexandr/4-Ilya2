@@ -1,0 +1,177 @@
+@keyframes move__boll-1 {
+    0% {
+        top: 0;
+        left: 50%;
+    }
+    25% {
+        top: 40%;
+        left: 100%;
+    }
+    50% {
+        top: 100%;
+        left: 50%;
+    }
+    75% {
+        top: 60%;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 50%;
+    }
+}
+
+.move__boll-1 {
+    animation: move__boll-1 30s linear infinite;
+}
+
+@keyframes move__boll-2 {
+    0% {
+        top: 50%;
+        left: 100%;
+    }
+    25% {
+        top: 100%;
+        left: 40%;
+    }
+    50% {
+        top: 30%;
+        left: 0;
+    }
+    75% {
+        top: 0;
+        left: 60%;
+    }
+    100% {
+        top: 50%;
+        left: 100%;
+    }
+}
+
+.move__boll-2 {
+    animation: move__boll-2 20s linear infinite;
+}
+
+@keyframes move__boll-3 {
+    0% {
+        top: 100%;
+        left: 50%;
+    }
+    25% {
+        top: 10%;
+        left: 0;
+    }
+    50% {
+        top: 0;
+        left: 40%;
+    }
+    75% {
+        top: 70%;
+        left: 100%;
+    }
+    100% {
+        top: 100%;
+        left: 50%;
+    }
+}
+
+.move__boll-3 {
+    animation: move__boll-3 30s linear infinite;
+}
+
+@keyframes move__boll-4 {
+    0% {
+        top: 50%;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 50%;
+    }
+    50% {
+        top: 30%;
+        left: 100%;
+    }
+    75% {
+        top: 100%;
+        left: 40%;
+    }
+    100% {
+        top: 50%;
+        left: 0;
+    }
+}
+
+.move__boll-4 {
+    animation: move__boll-4 45s linear infinite;
+}
+
+.container {
+    background-color: black;
+    width: 1300px;
+    height: 1300px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.boll-1 {
+    width: 100%;
+    height: 100%;
+    filter: blur(100px);
+    border-radius: 50%;
+    background:
+            linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 50%;
+}
+
+.boll-2 {
+    width: 100%;
+    height: 100%;
+    filter: blur(100px);
+    border-radius: 50%;
+    background:
+            linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 100%;
+}
+
+.boll-3 {
+    width: 100%;
+    height: 100%;
+    filter: blur(100px);
+    border-radius: 50%;
+    background:
+            linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 100%;
+    left: 50%;
+}
+
+.boll-4 {
+    width: 100%;
+    height: 100%;
+    filter: blur(100px);
+    border-radius: 50%;
+    background:
+            linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 0;
+}
